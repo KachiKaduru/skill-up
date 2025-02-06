@@ -1,5 +1,5 @@
 import "@/app/_styles/globals.css";
-import { manrope } from "./fonts/font";
+import { manrope } from "./_fonts/font";
 
 export const metadata = {
   title: {

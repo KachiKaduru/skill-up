@@ -5,6 +5,7 @@ import NavigationBar from "./_components/NavigationBar";
 
 import heroImg from "@/public/skillup-hero.png";
 import Button from "./_components/Button";
+import ServicesSection from "./_components/ServicesSection";
 
 export default function Page() {
   return (
@@ -17,6 +18,7 @@ export default function Page() {
           alt="Skill Up Hero Image"
           fill
           className="object-cover object-center -z-10"
+          priority
         />
         <Container className="py-[150px]">
           <div className="max-w-[664px] mx-auto">
@@ -33,6 +35,8 @@ export default function Page() {
           </div>
         </Container>
       </main>
+
+      <ServicesSection />
     </section>
   );
 }

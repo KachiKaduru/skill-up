@@ -9,10 +9,5 @@ const headings = {
 export default function Heading({ type = "h2", children, className = "" }) {
   const { type: Element, className: baseClasses } = headings[type];
 
-  return (
-    <Element className={`${baseClasses} ${className}`}>
-      <h3 className=""></h3>
-      {children}
-    </Element>
-  );
+  return <Element className={`${baseClasses} ${className}`}>{children}</Element>;
 }
