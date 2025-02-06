@@ -1,3 +1,6 @@
+import "@/app/_styles/globals.css";
+import { manrope } from "./fonts/font";
+
 export const metadata = {
   title: {
     template: "%s | SkillUp",
@@ -8,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${manrope.className}`}>{children}</body>
     </html>
   );
 }

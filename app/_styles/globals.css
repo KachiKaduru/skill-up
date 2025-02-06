@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+.scroll-in {
+  transition: all 1s;
+}
+
+.hidden-stn {
+  opacity: 0;
+  transform: translateY(8rem);
+  scale: 0.8;
+}
