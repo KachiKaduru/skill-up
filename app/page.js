@@ -6,6 +6,7 @@ import NavigationBar from "./_components/NavigationBar";
 import heroImg from "@/public/skillup-hero.png";
 import Button from "./_components/Button";
 import ServicesSection from "./_components/ServicesSection";
+import FeaturesSection from "./_components/FeaturesSection";
 
 export default function Page() {
   return (
@@ -37,6 +38,7 @@ export default function Page() {
       </main>
 
       <ServicesSection />
+      <FeaturesSection />
     </section>
   );
 }
